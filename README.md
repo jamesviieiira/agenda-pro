@@ -1,7 +1,17 @@
-# Agenda Pro (Android)
+# Studio Celine — Agenda (Android)
 
 App de agenda para profissionais autônomos (beleza, saúde, estética, personal etc.), feito em Kotlin + Jetpack Compose + Room.
 Funciona 100% offline; os dados ficam no aparelho.
+
+## Novidades da v0.3
+- Visual do Studio Celine: preto e champagne, logo extraída da foto da parede do studio e ícone novo
+- Nova tela **Início**: resumo do dia, próximo atendimento, atalhos (novo agendamento, novo cliente, horários livres, lembretes), alertas e resultado do mês
+- **Mais** reorganizado em blocos com ícones: Atendimento, Clientes, Negócio e Ajustes
+- **Serviços sugeridos** de lash, sobrancelha, unhas e massagem (só ajustar os preços)
+- **Dados do studio** (nome e WhatsApp) usados nas mensagens e nos horários livres
+- Expediente padrão: segunda a sábado, 08:00 às 19:00
+- Chave de assinatura fixa (`app/debug.keystore`): a partir da v0.3.1 os APKs novos instalam POR CIMA do anterior, sem desinstalar. A v0.2 foi assinada com outra chave, então a troca da v0.2 para a v0.3.1 exige desinstalar uma única vez (faça o Backup antes)
+- O banco de dados não mudou da v0.2 para a v0.3.1: restaurando o backup, os dados voltam
 
 ## Funções (v0.2)
 - **Agenda**: visão diária com faixa semanal, filtro por colaborador, agendar/remarcar/cancelar/excluir,
